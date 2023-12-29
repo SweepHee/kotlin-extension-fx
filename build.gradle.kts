@@ -77,5 +77,9 @@ subprojects {
         testImplementation("org.springframework.boot:spring-boot-starter-test")
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.0")
         implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0")
+        implementation("io.github.microutils:kotlin-logging:2.1.21")
+        implementation("org.apache.httpcomponents:httpclient:4.5.13")
+        implementation("org.apache.commons:commons-lang3")
+        implementation("org.springframework.cloud:spring-cloud-starter-sleuth:3.1.7")
     }
 }

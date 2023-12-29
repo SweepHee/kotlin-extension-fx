@@ -19,3 +19,5 @@ fun String.dmyToYmd (): String? = this.let {
 fun String.usLocaleDateToYmd(): String? = LocalDateTime.parse(
     this, DateTimeFormatter.ofPattern("EEE MMM dd HH:mm:ss zzz yyyy", Locale.US)
 ).format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
+
+
