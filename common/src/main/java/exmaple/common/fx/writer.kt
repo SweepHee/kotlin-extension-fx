@@ -1,5 +1,6 @@
-package exmaple.common.proto
+package exmaple.common.fx
 
+import exmaple.common.proto.createPath
 import java.io.File
 import java.io.IOException
 import java.io.PrintWriter
